@@ -5,5 +5,10 @@
     <age>22</age>
     <DOB>2003-06-22</DOB>
     <Email>rakesh@example.com</Email>
-    <Address>warangal, Telangana</Address>
+    <Address>
+        <street>SRR Thota</street>
+        <city>Warangal</city>
+        <state>TG</state>
+        <pincode>506002</pincode>
+    </Address>
 </student>

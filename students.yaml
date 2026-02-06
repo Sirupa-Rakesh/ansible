@@ -1,0 +1,35 @@
+- name : "rakesh"
+  dob : "1995-05-15"
+  roll_no : 1
+  mobile_no : 9876543210
+  email : "rakesh@sample.com"
+  address : 
+  - street : "123 Main St"
+    city : "New York"
+    state : "NY"
+    zip_code : "10001"
+    type : "current"
+
+  - street : "123 Main St"
+    city : "New York"
+    state : "NY"
+    zip_code : "10001"
+    type : "permanent"
+
+- n- name : "sai"
+  dob : "1995-05-15"
+  roll_no : 1
+  mobile_no : 9876543212
+  email : "sai@sample.com"
+  address : 
+  - street : "123 Main St"
+    city : "New York"
+    state : "NY"
+    zip_code : "10001"
+    type : "current"
+
+  - street : "123 Main St"
+    city : "New York"
+    state : "NY"
+    zip_code : "10001"
+    type : "permanent"

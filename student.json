@@ -1,0 +1,78 @@
+{
+    "students" : 
+    [
+        {
+            "firstname": "sai",
+            "dob": "22-06-2003",
+            "address": 
+            [
+              
+                {
+                    "street": "SRR Thota",
+                    "hosueno": "16-1-409",
+                    "city": "Warangal",
+                    "state": "TG",
+                    "zip": "506002"
+                },
+                {
+                    "type" : "permanent",
+                    "street": "SRR Thota",
+                    "hosueno": "16-1-409",
+                    "city": "Warangal",
+                    "state": "TG",
+                    "zip": "506002"
+
+
+
+
+                }
+
+
+    ], 
+    "skills": ["java", "python", "c++"],
+    "education":
+{
+        "degree": "B.Tech",
+        "branch": "CSE",
+        "college": "KITS Warangal",
+        "year": 2025
+    }
+        },
+        {
+            "firstname": "rakesh",
+            "dob": "22-06-2003",
+             "address": [
+              
+                {
+                    "street": "SRR Thota",
+                    "hosueno": "16-1-409",
+                    "city": "Warangal",
+                    "state": "TG",
+                    "zip": "506002"
+                },
+                {
+                    "type" : "permanent",
+                    "street": "SRR Thota",
+                    "hosueno": "16-1-409",
+                    "city": "Warangal",
+                    "state": "TG",
+                    "zip": "506002"
+
+
+
+
+                }
+
+
+    ], 
+    "skills": ["java", "python", "c++"],
+    "education": {
+        "degree": "B.Tech",
+        "branch": "CSE",
+        "college": "KITS Warangal",
+        "year": 2025
+    }
+        }
+
+    ]
+}

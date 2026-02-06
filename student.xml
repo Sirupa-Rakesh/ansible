@@ -1,6 +1,7 @@
 <!--- student object -->
 
-<student>
+<students>
+  <student>
     <name>Rakesh</name>
     <age>22</age>
     <DOB>2003-06-22</DOB>
@@ -12,3 +13,4 @@
         <pincode>506002</pincode>
     </Address>
 </student>
+</students>

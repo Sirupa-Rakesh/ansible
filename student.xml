@@ -1,0 +1,9 @@
+<!--- student object -->
+
+<student>
+    <name>Rakesh</name>
+    <age>22</age>
+    <DOB>2003-06-22</DOB>
+    <Email>rakesh@example.com</Email>
+    <Address>warangal, Telangana</Address>
+</student>

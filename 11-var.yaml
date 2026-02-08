@@ -1,0 +1,14 @@
+- name : "uma"
+  hosts : local
+  connection : local
+
+  vars :
+    courses : "cubersecurity"
+    duration : "3 months"
+    trainer : "rakesh"
+
+  tasks : 
+    - name : print uma details 
+      ansible.builtin.debug :
+        msg : "course name is {{ courses }} and duration is {{ duration }} and trainer is {{ trainer }}"
+        

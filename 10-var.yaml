@@ -1,4 +1,4 @@
-- name: rakesh
+- name: "rakesh"
   hosts: local
   connection: local
 
@@ -14,7 +14,7 @@
 
 
 
-- name : sai
+- name : "sai"
   hosts : local
   connection : local
 

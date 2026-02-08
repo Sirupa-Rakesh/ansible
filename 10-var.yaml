@@ -1,17 +1,29 @@
- - name : rakesh
-   hosts : local
-   connection :local 
+- name: rakesh
+  hosts: local
+  connection: local
+
+  vars:
+    courses: "DevOps with AWS"
+    duration: "3 months"
+    trainer: "Rakesh"
+
+  tasks:
+    - name: print rakesh details
+      ansible.builtin.debug:
+        msg: "Course Name is {{ courses }} and Duration is {{ duration }} and Trainer is {{ trainer }}"
 
 
-   vars :
-      couses : "Devops with AWS"
-      duration : "3 months"
-      trainer : "Rakesh"
 
+- name : sai
+  hots : local
+  connection : local
 
+  vars :
+    courses : "devscops with aws"
+    duration : "3 months"
+    trainer : "Rakesh"
 
-      
-      tasks :
-        - name : print rakesh details
-          ansible.builtin.debug :
-            msg : "Course Name is {{ couses }} and Duration is {{ duration }} and Trainer is {{ trainer }}"
+  tasks :
+    - name : print sai details
+      ansible.builtin.debug :
+        msg : "Course Name is {{ courses }} and Duration is {{ duration }} and Trainer is {{ trainer }}"

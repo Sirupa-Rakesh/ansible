@@ -21,7 +21,7 @@
   vars :
     courses : "devscops with aws"
     duration : "3 months"
-    trainer : "Rakesh"
+    trainer : "avanthika"
 
   tasks :
     - name : print sai details

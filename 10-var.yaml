@@ -1,0 +1,11 @@
+ - name : rakesh
+   hosts : local
+   connection :local
+   vars :
+      couses : "Devops with AWS"
+      duration : "3 months"
+      trainer : "Rakesh"
+      tasks :
+        - name : print rakesh details
+          ansible.builtin.debug :
+            msg : "Course Name is {{ couses }} and Duration is {{ duration }} and Trainer is {{ trainer }}"

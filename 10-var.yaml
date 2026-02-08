@@ -15,7 +15,7 @@
 
 
 - name : sai
-  hots : local
+  hosts : local
   connection : local
 
   vars :

@@ -7,4 +7,4 @@
   - name : check number of sessions 
     ansible.builtin.debug :
      msg : " number of sessions are {{number_of_sessions}}"
-    when : number_of_sessions > 33
+    when : number_of_sessions > 3

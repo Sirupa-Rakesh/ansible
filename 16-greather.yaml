@@ -1,4 +1,4 @@
-- nmae : demo on greather number
+- name : demo on greather number
   hosts : local
   connection : local
   vars :

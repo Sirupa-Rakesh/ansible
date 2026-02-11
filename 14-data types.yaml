@@ -1,0 +1,22 @@
+- name : demo on data types
+  hosts : local
+  connection  : local
+  vars :
+    program : "devscops with aws" #string
+    duration : "6hrs" # int/number
+    IS_LIVE : true # boolean
+    DETAILS : 
+      MONTHS : 4M
+      DAYS : 120D
+      HOURS : 720H
+      TRAINER : "RAKESH"
+    TOPICS : # LIST
+      - ansible
+      - docker
+      - kubernetes
+      - terraform
+  tasks :
+  - name : print data types
+    ansible.builtin.debug :
+      msg : "program is {{program}} and duration is {{duration}} and is live {{IS_LIVE}} and details are {{DETAILS}} and topics are {{TOPICS}}"   
+

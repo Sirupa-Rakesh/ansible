@@ -1,0 +1,7 @@
+- name : variable from arugs
+  hosts : local
+  connection : local
+  tasks :
+    - name : print vatiables from arugs
+      ansible.builtin.debug :
+        msg : "the value of var1 is {{ var1 }} and the value of var2 is {{ var2 }}"

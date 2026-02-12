@@ -1,12 +1,13 @@
-- name : demo on error handling
-  hosts : local
-  connection : local
-  tasks :
-  - name : check user exist or not
-    ansible.builtin.comand : id roboshop
-    register : user_output
+- name: error handling example
+  hosts: all
+  become: yes
 
-  - name : print user output
-    ansible.builtin.debug :
-      msg : "{{ user_output }}"
-  
+  tasks:
+    - name: check user exist or not
+      ansible.builtin.command: id rakesh
+      register: user_check
+      ignore_errors: yes
+
+    - name: print output
+      ansible.builtin.debug:
+        var: user_check
